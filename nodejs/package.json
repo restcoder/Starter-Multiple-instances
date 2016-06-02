@@ -1,0 +1,7 @@
+{
+  "name": "004-starter-database-connection",
+  "dependencies": {
+    "express": "^4.13.3",
+    "pg": "^4.4.3"
+  }
+}
