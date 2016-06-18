@@ -1,0 +1,8 @@
+java/target
+nodejs/node_modules
+dotnet/bin
+dotnet/obj
+dotnet/packages
+ruby/Gemfile.lock
+.env
+*.pyc

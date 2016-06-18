@@ -1,0 +1,5 @@
+# Use this file to defined patterns for ignored files. Those files won't be submitted to RestCoder service.
+# Please use syntax from gitignore https://git-scm.com/docs/gitignore
+
+# ignore all files and directories that start with a dot
+.*

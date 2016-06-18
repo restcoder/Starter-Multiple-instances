@@ -31,7 +31,6 @@ CREATE TABLE "product"
 `;
 
 app.listen(process.env.PORT, function () {
-  console.log('Listening on', process.env.PORT);
   if (process.env.FOREMAN_WORKER_NAME === 'web.1') {
     pg.connect(process.env.POSTGRES_URL, function (err, client, done) {
       if (err) {
