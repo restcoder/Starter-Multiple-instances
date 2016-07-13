@@ -1,0 +1,21 @@
+##########################################
+# This is a restcoder configuration file #
+# Edit on your own risk                  #
+##########################################
+
+# the problem to solve
+problemId: 3 # Starter: Multiple instances
+
+# your target language
+language: nodejs
+
+# postman collection id used for local testing
+postmanCollectionId: 119cad9e2137ab476416
+
+# config for `restcoder start`
+instances:
+  web: 2
+
+# list of variables required for `restcoder start`
+env:
+  - POSTGRES_URL
